@@ -14,7 +14,7 @@ function WorkAndSkills() {
           <p className="resumeHeading">
             Education
           </p>
-          <p id="education" className="resumeDesc fullHeight">
+          <div id="education" className="bulletFlex">
             <ul>
               <li className="bullet">
                 B.S. in Mathematics from University of Pittsburgh
@@ -27,14 +27,14 @@ function WorkAndSkills() {
                 (expected) Dec 2022
               </li>
             </ul>
-          </p>
+          </div>
 
           <p className="resumeHeading">
             Work Experience
           </p>
 
-          {/* Work experience paragraph tag that holds multiple unordered list items for prior work experience */}
-          <p id="experience" className="resumeDesc fullHeight">
+          
+          <div id="experience" className="bulletFlex">
             <ul>
               <li className="bullet">
                 Founded Schmilk Chocolate, developed an innovative system for the production of a new food category- milk chocolate without milk. 
@@ -47,13 +47,13 @@ function WorkAndSkills() {
                 Worked within a wonderful team of people at a local nonprofit to help provide in-home care for a man who requires assistance with all aspects of daily life.
                 </li>
             </ul>
-          </p>
+          </div>
 
           <p className="resumeHeading">
             Technical Skills
           </p>
 
-          <div id="skills" className="resumeDesc fullHeight">
+          <div id="skills" className="bulletFlex">
             <ul>
               <li className="bullet">
                 Languages: JavaScript | HTML | CSS 
@@ -69,11 +69,11 @@ function WorkAndSkills() {
 
           <div className="resumeCenter">
             <p className="resumeHeading">
-              Download my resume:
+              {/* Download my resume: */}
             </p>
-            <a className="downloadButton" href="../public/Maddie Siegel-resume.pdf" download>
+            {/* <a className="downloadButton" href="./public/Maddie Siegel- resume.pdf" download>
               Download Document
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

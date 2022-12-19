@@ -1,9 +1,15 @@
 /*Make the wrapper a flexbox, align the items in the center and add some extra styles*/
+.navMain{
+  background-color: whitesmoke;
+  max-width: 100%;
+}
+
 .navWrapper {
     display: flex;
     flex-direction: row;
     background-color: whitesmoke;
     justify-content: space-between;
+    max-width: 100%;
   }
 
   .scrollNav{
@@ -13,7 +19,7 @@
     font-family: montserrat;
     font-size: larger;
     border: 1px, black;
-    margin-right:5%;
+    margin-right:7%;
     font-weight: 900;
     border: 2px, solid, black;
   }
@@ -23,14 +29,7 @@
     margin-right: 10%;
     margin-left: 10%;
     min-width: fit-content;
-    
-    
-    
   }
-  .navMain{
-    background-color: whitesmoke;
-  }
- 
 
   
 .MyName{
