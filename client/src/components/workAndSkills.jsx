@@ -71,7 +71,7 @@ function WorkAndSkills() {
             <p className="resumeHeading">
               Download my resume:
             </p>
-            <a className="downloadButton" href="jjj" download>
+            <a className="downloadButton" href="../public/Maddie Siegel-resume.pdf" download>
               Download Document
             </a>
           </div>
