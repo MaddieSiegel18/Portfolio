@@ -1,0 +1,57 @@
+/*Make the wrapper a flexbox, align the items in the center and add some extra styles*/
+.navWrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    justify-content: space-between;
+  }
+
+  .scrollNav{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    font-family: montserrat;
+    font-size: larger;
+    border: 1px, black;
+    margin-right:5%;
+    font-weight: 900;
+    border: 2px, solid, black;
+  }
+
+  a{
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+    min-width: fit-content;
+    
+    
+    
+  }
+  .navMain{
+    background-color: whitesmoke;
+  }
+ 
+
+  
+.MyName{
+  font-family: Montserrat;
+  font-size: x-large;
+  width: fit-content;
+  font-weight: 900;
+}
+
+  @media (max-width: 600px) {
+    .navMain{
+      max-width: 70%;
+    }
+
+    .MyName{
+      margin-right:15%;
+    }
+
+    .navWrapper{
+      max-width: 100%;
+    }
+  
+  }
+  

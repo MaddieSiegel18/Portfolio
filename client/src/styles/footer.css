@@ -1,0 +1,27 @@
+/*The footer is very similar to the navbar. Make the wrapper a flexbox, align the items in the center and add some extra styles*/
+#footer .footerWrapper{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 0px;/*Vertical and horizontal*/
+    /*The layer that this element is in*/
+    z-index: 100;
+}
+
+
+#footer.outterWrapper{  
+    width: 100%;
+    bottom: 0px;
+}
+
+
+
+
+@media (max-width: 600px){
+   
+
+    #footer.outterWrapper{  
+        width: 100%;
+        margin-top: 5rem;
+    }
+}

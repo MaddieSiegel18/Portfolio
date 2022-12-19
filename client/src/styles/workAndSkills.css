@@ -1,0 +1,99 @@
+#workAndSkillsdiv{
+    background-color:whitesmoke;
+}
+.resumeTitle{
+    font-family: montserrat;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2.7rem;
+}
+
+.resumeHeading{
+    font-family: montserrat;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.resumeHeading span{
+    cursor: pointer;
+}
+
+.resumeDesc{
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+.resumeIntro{
+    font-family: montserrat;
+    font-size: 25px;
+
+}
+
+
+.bullet{
+    font-family: var(--font);
+    font-size: 25px;
+}
+
+
+.downloadButton{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 2rem;
+    color: black;
+    transition: 0.5s ease;
+    border-radius: 4%;
+    font-weight: 500;
+  
+}
+
+.downloadButton:hover{
+    background-color: black;
+    color: white;
+}
+
+.resumeCenter{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.ul{
+    margin: none;
+}
+
+
+
+@media (max-width: 600px) {
+  
+    #workhistory{
+      width: 100%;
+    }
+
+    .resumeTitle{
+        font-size: 2.3rem;
+    }
+
+    .resumeHeading{
+        font-size: 1.2rem;
+    }
+
+    .resumeIntro{
+        font-size: 1rem;
+    }
+
+    .bullet{
+        font-size: 1rem;
+    }
+
+
+  }
+
+
+

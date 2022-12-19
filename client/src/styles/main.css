@@ -1,0 +1,14 @@
+/*Syle the intro div on the home page.*/
+
+
+  .main{
+    background-color: whitesmoke;
+    font-size: 1.2em;
+  }
+  
+  @media (max-width: 600px) {
+    html,body {
+      width: 100%;
+    }
+  }
+  
